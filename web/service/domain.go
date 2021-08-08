@@ -2,10 +2,10 @@ package service
 
 import (
 	"fmt"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/ledger"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"time"
+
+	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
+	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 type Company struct {
@@ -30,9 +30,7 @@ type Block struct {
 }
 
 type ServiceSetup struct {
-	ChaincodeId   string
-	ChannelClient *channel.Client
-	LedgerClient  *ledger.Client
+	ChaincodeId string
 }
 
 //注册链码事件

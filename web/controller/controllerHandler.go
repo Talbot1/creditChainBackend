@@ -13,7 +13,6 @@ import (
 )
 
 type Application struct {
-	Setup            *service.ServiceSetup
 	JdService        *utils.JdService
 	CompanyService   *service.CompanyService
 	TrademarkService *service.TrademarkService

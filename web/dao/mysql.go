@@ -28,8 +28,6 @@ func InitMysql() {
 		db, _ = sql.Open("mysql", path)
 		DeleteTable()
 		CreateTableWithUser()
-		CreateTableWithSession()
-		CreateTableWithAction()
 
 		CreateTableWithTrademark()
 		CreateTableWithTransaction()
