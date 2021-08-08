@@ -7,6 +7,7 @@ web/static
 web/tpl
 web/.idea
 .idea
+Hw-blockchain.tar.gz
 # 忽略所有 db 目錄下附檔名是 .sqlite3 的檔案
 /db/*.sqlite3
 
